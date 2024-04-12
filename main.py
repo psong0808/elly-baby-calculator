@@ -3,6 +3,7 @@ def main():
     print("Subtraction: 5 - 3 =", subtract(5, 3))
     print("Multiplication: 5 * 3 =", multiply(5, 3))
     print("Division: 5 / 3 =", divide(5, 3))
+    print("Exponentiation: 2 ^ 3 =", power(2, 3))
 
 
 def add(a, b):
@@ -22,6 +23,11 @@ def divide(a, b):
         return a / b
     else:
         return "Error: Division by zero"
+
+def power(base, exponent):
+    return base ** exponent
+
+main()
 
 
 # Example usage (this line would be outside the function in actual use):
